@@ -14,7 +14,7 @@ print(1, 'Luiz "Otávio"', end="\r\n\n\n")
 
 # Aspas duplas
 print("Luiz Otávio")
-print(2, "Luiz f'Otávio'", end="\r\n\n\n")
+print(2, "Luiz 'Otávio'", end="\r\n\n\n")
 
 # Escape
 print("Luiz \"Otávio\"", end="\r\n\n\n")
