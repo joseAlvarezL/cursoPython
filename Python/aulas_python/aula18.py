@@ -25,4 +25,7 @@ else:
 if 10 == 10:
     print('Outro if')
 
+if condicao1 == False:
+    print('Deu false')
+
 print('Fora do if')

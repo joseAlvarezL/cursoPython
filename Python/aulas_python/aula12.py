@@ -5,7 +5,6 @@ peso = 70
 #   OU
 imc = peso/altura**2
 
-
     # print('Nome:', nome)
     # print('Altura:', altura)
     # print('Peso:', peso)
