@@ -1,22 +1,22 @@
-# calculadora de IMC
+# Calculadora de IMC
 
 nome = input('Digite seu nome: ')
-altura = input('Digite sua altura: ')
-peso = input('Digite seu peso: ')
 idade = input('Digite sua idade: ')
+peso = input('Digite seu peso: ')
+altura = input('Digite sua altura: ')
 
 nome1 = str(nome)
-altura1 = float(altura)
-peso1 = int(peso)
 idade1 = int(idade)
+peso1 = int(peso)
+altura1 = float(altura)
+data_nascimento = int(2024-idade1)
 
-nascimento = 2024 - idade1
-calculo_imc = peso1/altura1**2
+imc1 = peso1/altura1**2
 
-calculo = '\nSeu nome é: {name}\nVocê possui {height:.2f} de altura\nSeu peso é {weight} KG\nSua idade é {age}\nData de nascimento: {birth}\nO resultado do seu IMC: {imc:.3f}'
+dados = '\n\nSeu nome é: {name}\nSua idade é: {age}\nData de nascimento: {birth}\nPeso em quilos: {weight}KG\nSua altura: {height}\nCalculo de IMC: {imc:.2f}'
 
-imc_total = calculo.format(
-    name=nome1, height=altura1, weight=peso1, age=idade1, birth=nascimento, imc=calculo_imc
+calculo_imc = dados.format(
+    name=nome1, age=idade1, birth=data_nascimento, weight=peso1, height=altura1, imc=imc1
 )
 
-print(imc_total)
+print(calculo_imc)

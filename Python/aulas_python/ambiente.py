@@ -1,24 +1,15 @@
-condicao1 = False
-condicao2 = True
-condicao3 = False
-condicao4 = False
+# Comparar entre 2 números
 
-if condicao1:
-    print('Condição 1 é verdadeira')
+numero1 = input('Digite um número: ')
+numero2 = input('Digite outro número: ')
 
-elif condicao2:
-    print('Condição 2 é verdadeiro')
+numero1int = int(numero1)
+numero2int = int(numero2)
 
-elif condicao3:
-    print('Condição 3 é verdadeiro')
+if numero1int >= numero2int:
+    print(f'Número {numero1int} é maior que o número {numero2int}')
 
-elif condicao4:
-    print('Condição 4 é verdadeiro')
+
 
 else:
-    print('Fatal error seu fudido kkkk')
-
-if condicao1 == False:
-    print('Deu false')
-
-print('Fora da matrix')
+    print(f'O número {numero2int} é maior')

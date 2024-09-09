@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semântico</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        .topo{
+            background-color: grey;
+            padding: 20px;
+            text-align: center;
+        }
+        .menu{
+            background-color: #333;
+            overflow: hidden;
+        }
+        .menu a{
+            color: white;
+            padding: 14px 16px;
+            float: left;
+            display: block;
+            text-decoration: none;
+        }
+        .coluna-50{
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- TAG SEMÂNTICA PARA O TOPO -->
+    <header class="topo">
+        <h1>Topo</h1>
+        <p>Aqui a parte do topo</p>
+    </header>
+    <!-- TAG SEMÂNTICA PARA MENU -->
+    <nav class="menu">
+        <a href="aula1.html">Link</a>
+        <a href="aula1.html">Link</a>
+        <a href="aula1.html">Link</a>
+        <a href="aula1.html">Link</a>
+    </nav>
+
+    <!-- TAG SEMÂNTICA PARA SEÇÃO -->
+    <section class="coluna-50">
+     <article>
+        <h2>Coluna</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptas sit, beatae hic praesentium necessitatibus a debitis aperiam dignissimos ipsa sed vero? Modi praesentium possimus vel aliquam, ex et laborum.</p>
+     </article>
+    </section>
+
+    <section class="coluna-50">
+      <article>
+        <h2>Coluna</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptas sit, beatae hic praesentium necessitatibus a debitis aperiam dignissimos ipsa sed vero? Modi praesentium possimus vel aliquam, ex et laborum.</p>
+      </article>
+    </section>
+    <!-- TAG SEMÂNTICA PARA RODAPÉ -->
+    <footer class="rodape"></footer>
+
+</body>
+</html>
