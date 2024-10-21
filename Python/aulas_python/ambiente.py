@@ -1,4 +1,7 @@
-celular = input("Digite a marca do celular: ")
+numero = input('Digite 1 número: ')
 
-if celular != 'LG':
-    print('Acertou')
+
+try:
+    print(numero.isdigit())
+except:
+    print('Algo de errado não esta certo')

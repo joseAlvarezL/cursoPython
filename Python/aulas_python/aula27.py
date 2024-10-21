@@ -3,9 +3,9 @@ Fatiamento de strings
  012345678 # 8 indices
  Olá mundo # 9 caracteres
 -987654321
-Fatiamento [i:f:p] [::] //Inicio, fim e passo
-Obs.: a função len retorna a qtd 
-de caracteres da str
+Fatiamento [i:f:p] [::] //Inicio, Fim e Passo
+Obs.: a função len retorna a qtd de caracteres da variavel/str
+# Contagem(123456789) ≠ Índice (0123456789)
 """
 variavel = 'Olá mundo'
 print(variavel[4:]) # Ele vai até o final da str
